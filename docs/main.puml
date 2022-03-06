@@ -1,0 +1,19 @@
+@startuml main
+start
+  while (running)
+    :receive statement from user input;
+    :build;
+    note 
+      concatenate the statement 
+      in the golang template
+    endnote
+    :run;
+    if (did the statement return an error?) then(yes)
+      :remove the last statement from template;
+      :print the error;
+    else(no)
+    :print the stdout of statement;
+    endif
+  endwhile 
+stop
+@enduml 

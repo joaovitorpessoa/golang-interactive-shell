@@ -1,0 +1,10 @@
+{
+  "name": "golang-interactive-shell",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src",
+    "dev": "NODE_ENV=debug node src"
+  }
+}
