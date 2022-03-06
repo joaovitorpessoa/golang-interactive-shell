@@ -12,14 +12,14 @@ This project uses Docker. To install it, check out the [reference](https://docs.
 
 ## Installation
 
-Download the project
+Download the project:
 
 ```bash
 git clone https://github.com/joaovitorpessoa/golang-interactive-shell
 
 ```
 
-Build the docker image
+Build the docker image:
 ```bash
 docker build -t gis golang-interactive-shell
 ```
@@ -27,7 +27,7 @@ docker build -t gis golang-interactive-shell
 
 ## Usage
 
-Run the project
+Run the project:
 ```bash
 docker run -it --rm gis
 ```
