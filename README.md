@@ -3,6 +3,7 @@
 ## Description
 I'm studying golang and couldn't find a native interactive shell or an project easy to install/use, so I created my own. As my needs grow, I intend to update the project.
 For now, the work of app is very simple with less than 100 lines of code that can be summarized by the flowchart below.
+
 ![](docs/sequence.png) 
 
 ## Requirements
